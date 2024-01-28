@@ -1,0 +1,598 @@
+semver: 2.7.1
+header:
+  name: "XBox HID"
+timers:
+  0:
+    start: 0
+    swtch: "NONE"
+    value: 0
+    mode: OFF
+    countdownBeep: 0
+    minuteBeep: 0
+    persistent: 0
+    countdownStart: -1
+    name: ""
+  1:
+    start: 0
+    swtch: "NONE"
+    value: 0
+    mode: OFF
+    countdownBeep: 0
+    minuteBeep: 0
+    persistent: 0
+    countdownStart: -1
+    name: ""
+  2:
+    start: 0
+    swtch: "NONE"
+    value: 0
+    mode: OFF
+    countdownBeep: 0
+    minuteBeep: 0
+    persistent: 0
+    countdownStart: -1
+    name: ""
+telemetryProtocol: 0
+thrTrim: 0
+noGlobalFunctions: 0
+displayTrims: 0
+ignoreSensorIds: 0
+trimInc: 0
+disableThrottleWarning: 1
+displayChecklist: 0
+extendedLimits: 0
+extendedTrims: 0
+throttleReversed: 0
+enableCustomThrottleWarning: 0
+customThrottleWarningPosition: 0
+beepANACenter: 0
+mixData:
+  - weight: 100
+    destCh: 0
+    srcRaw: I0
+    carryTrim: 0
+    mixWarn: 0
+    mltpx: ADD
+    offset: 0
+    swtch: "NONE"
+    flightModes: 000000000
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    name: ""
+  - weight: 100
+    destCh: 1
+    srcRaw: I1
+    carryTrim: 0
+    mixWarn: 0
+    mltpx: ADD
+    offset: 0
+    swtch: "NONE"
+    flightModes: 000000000
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    name: ""
+  - weight: 100
+    destCh: 2
+    srcRaw: I2
+    carryTrim: 0
+    mixWarn: 0
+    mltpx: ADD
+    offset: 0
+    swtch: "NONE"
+    flightModes: 000000000
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    name: ""
+  - weight: 100
+    destCh: 3
+    srcRaw: I3
+    carryTrim: 0
+    mixWarn: 0
+    mltpx: ADD
+    offset: 0
+    swtch: "NONE"
+    flightModes: 000000000
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    name: ""
+  - weight: 100
+    destCh: 8
+    srcRaw: I8
+    carryTrim: 0
+    mixWarn: 0
+    mltpx: ADD
+    offset: 0
+    swtch: "SC0"
+    flightModes: 000000000
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    name: ""
+  - weight: 100
+    destCh: 9
+    srcRaw: I9
+    carryTrim: 0
+    mixWarn: 0
+    mltpx: ADD
+    offset: 0
+    swtch: "SC0"
+    flightModes: 000000000
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    name: ""
+  - weight: 100
+    destCh: 10
+    srcRaw: I10
+    carryTrim: 0
+    mixWarn: 0
+    mltpx: ADD
+    offset: 0
+    swtch: "SC0"
+    flightModes: 000000000
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    name: ""
+  - weight: 100
+    destCh: 11
+    srcRaw: I11
+    carryTrim: 0
+    mixWarn: 0
+    mltpx: ADD
+    offset: 0
+    swtch: "SC0"
+    flightModes: 000000000
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    name: ""
+  - weight: 100
+    destCh: 12
+    srcRaw: I12
+    carryTrim: 0
+    mixWarn: 0
+    mltpx: ADD
+    offset: 0
+    swtch: "SC2"
+    flightModes: 000000000
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    name: ""
+  - weight: 100
+    destCh: 13
+    srcRaw: I13
+    carryTrim: 0
+    mixWarn: 0
+    mltpx: ADD
+    offset: 0
+    swtch: "SC2"
+    flightModes: 000000000
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    name: ""
+  - weight: 100
+    destCh: 16
+    srcRaw: I16
+    carryTrim: 0
+    mixWarn: 0
+    mltpx: ADD
+    offset: 0
+    swtch: "SC2"
+    flightModes: 000000000
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    name: ""
+  - weight: 100
+    destCh: 17
+    srcRaw: I17
+    carryTrim: 0
+    mixWarn: 0
+    mltpx: ADD
+    offset: 0
+    swtch: "SC2"
+    flightModes: 000000000
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    name: ""
+  - weight: 100
+    destCh: 24
+    srcRaw: I24
+    carryTrim: 0
+    mixWarn: 0
+    mltpx: ADD
+    offset: 0
+    swtch: "NONE"
+    flightModes: 000000000
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    name: ""
+  - weight: 0
+    destCh: 4
+    srcRaw: NONE
+    carryTrim: 0
+    mixWarn: 0
+    mltpx: ADD
+    offset: 0
+    swtch: "NONE"
+    flightModes: 000000000
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    name: ""
+  - weight: 0
+    destCh: 8
+    srcRaw: NONE
+    carryTrim: 0
+    mixWarn: 0
+    mltpx: ADD
+    offset: 0
+    swtch: "NONE"
+    flightModes: 000000000
+    delayUp: 0
+    delayDown: 0
+    speedUp: 0
+    speedDown: 0
+    name: ""
+limitData:
+  1:
+    min: 0
+    max: 0
+    ppmCenter: 0
+    offset: 0
+    symetrical: 0
+    revert: 1
+    curve: 0
+    name: ""
+  3:
+    min: 0
+    max: 0
+    ppmCenter: 0
+    offset: 0
+    symetrical: 0
+    revert: 1
+    curve: 0
+    name: ""
+  9:
+    min: 0
+    max: 0
+    ppmCenter: 0
+    offset: 0
+    symetrical: 0
+    revert: 1
+    curve: 0
+    name: ""
+  11:
+    min: 0
+    max: 0
+    ppmCenter: 0
+    offset: 0
+    symetrical: 0
+    revert: 1
+    curve: 0
+    name: ""
+  12:
+    min: 0
+    max: 0
+    ppmCenter: 0
+    offset: 0
+    symetrical: 0
+    revert: 1
+    curve: 0
+    name: ""
+  13:
+    min: 0
+    max: 0
+    ppmCenter: 0
+    offset: 0
+    symetrical: 0
+    revert: 1
+    curve: 0
+    name: ""
+expoData:
+  - mode: 3
+    scale: 0
+    srcRaw: Rud
+    carryTrim: 0
+    chn: 0
+    swtch: "NONE"
+    flightModes: 000000000
+    weight: 100
+    name: "LH"
+    offset: 0
+    curve:
+      type: 1
+      value: 0
+  - mode: 3
+    scale: 0
+    srcRaw: Thr
+    carryTrim: 0
+    chn: 1
+    swtch: "NONE"
+    flightModes: 000000000
+    weight: 100
+    name: "LV"
+    offset: 0
+    curve:
+      type: 3
+      value: 0
+  - mode: 3
+    scale: 0
+    srcRaw: Ail
+    carryTrim: 0
+    chn: 2
+    swtch: "NONE"
+    flightModes: 000000000
+    weight: 100
+    name: "RH"
+    offset: 0
+    curve:
+      type: 1
+      value: 0
+  - mode: 3
+    scale: 0
+    srcRaw: Ele
+    carryTrim: 0
+    chn: 3
+    swtch: "NONE"
+    flightModes: 000000000
+    weight: 100
+    name: "RV"
+    offset: 0
+    curve:
+      type: 1
+      value: 0
+  - mode: 3
+    scale: 0
+    srcRaw: POT1
+    carryTrim: 0
+    chn: 4
+    swtch: "NONE"
+    flightModes: 000000000
+    weight: 100
+    name: ""
+    offset: 0
+    curve:
+      type: 1
+      value: 0
+  - mode: 3
+    scale: 0
+    srcRaw: POT2
+    carryTrim: 0
+    chn: 5
+    swtch: "NONE"
+    flightModes: 000000000
+    weight: 100
+    name: ""
+    offset: 0
+    curve:
+      type: 1
+      value: 0
+  - mode: 3
+    scale: 0
+    srcRaw: MAX
+    carryTrim: 0
+    chn: 6
+    swtch: "NONE"
+    flightModes: 000000000
+    weight: 100
+    name: ""
+    offset: 0
+    curve:
+      type: 1
+      value: 0
+  - mode: 3
+    scale: 0
+    srcRaw: SB
+    carryTrim: 0
+    chn: 8
+    swtch: "NONE"
+    flightModes: 000000000
+    weight: 100
+    name: "A"
+    offset: 0
+    curve:
+      type: 1
+      value: 0
+  - mode: 3
+    scale: 0
+    srcRaw: SB
+    carryTrim: 0
+    chn: 9
+    swtch: "NONE"
+    flightModes: 000000000
+    weight: 100
+    name: "B"
+    offset: 0
+    curve:
+      type: 1
+      value: 0
+  - mode: 2
+    scale: 0
+    srcRaw: SA
+    carryTrim: 0
+    chn: 10
+    swtch: "NONE"
+    flightModes: 000000000
+    weight: 100
+    name: "X"
+    offset: 0
+    curve:
+      type: 1
+      value: 0
+  - mode: 3
+    scale: 0
+    srcRaw: SA
+    carryTrim: 0
+    chn: 11
+    swtch: "NONE"
+    flightModes: 000000000
+    weight: 100
+    name: "Y"
+    offset: 0
+    curve:
+      type: 1
+      value: 0
+  - mode: 3
+    scale: 0
+    srcRaw: SA
+    carryTrim: 0
+    chn: 12
+    swtch: "NONE"
+    flightModes: 000000000
+    weight: 100
+    name: "LB"
+    offset: 0
+    curve:
+      type: 1
+      value: 0
+  - mode: 3
+    scale: 0
+    srcRaw: SB
+    carryTrim: 0
+    chn: 13
+    swtch: "NONE"
+    flightModes: 000000000
+    weight: 100
+    name: "RB"
+    offset: 0
+    curve:
+      type: 1
+      value: 0
+  - mode: 3
+    scale: 0
+    srcRaw: SA
+    carryTrim: 0
+    chn: 16
+    swtch: "NONE"
+    flightModes: 000000000
+    weight: 100
+    name: "Slc"
+    offset: 0
+    curve:
+      type: 1
+      value: 0
+  - mode: 3
+    scale: 0
+    srcRaw: SB
+    carryTrim: 0
+    chn: 17
+    swtch: "NONE"
+    flightModes: 000000000
+    weight: 100
+    name: "Str"
+    offset: 0
+    curve:
+      type: 1
+      value: 0
+  - mode: 3
+    scale: 0
+    srcRaw: SD
+    carryTrim: 0
+    chn: 24
+    swtch: "NONE"
+    flightModes: 000000000
+    weight: 100
+    name: "Xbx"
+    offset: 0
+    curve:
+      type: 1
+      value: 0
+  - mode: 0
+    scale: 0
+    srcRaw: NONE
+    carryTrim: 0
+    chn: 7
+    swtch: "NONE"
+    flightModes: 000000000
+    weight: 0
+    name: ""
+    offset: 0
+curves:
+  0:
+    type: 0
+    smooth: 1
+    points: 0
+    name: ""
+thrTraceSrc: Thr
+switchWarningState: AuBuCuDu
+rssiSource: none
+thrTrimSw: 0
+potsWarnMode: WARN_OFF
+jitterFilter: GLOBAL
+moduleData:
+  0:
+    type: TYPE_CROSSFIRE
+    subType: 0
+    channelsStart: 0
+    channelsCount: 16
+    failsafeMode: NOT_SET
+    mod:
+      crsf:
+        telemetryBaudrate: 0
+trainerData:
+  mode: SLAVE
+  channelsStart: 0
+  channelsCount: 0
+  frameLength: 0
+  delay: 0
+  pulsePol: 0
+inputNames:
+  0:
+    val: "A0"
+  1:
+    val: "A1"
+  2:
+    val: "A2"
+  3:
+    val: "A3"
+  4:
+    val: "A4"
+  5:
+    val: "A5"
+  6:
+    val: "A6"
+  8:
+    val: "B0"
+  9:
+    val: "B1"
+  10:
+    val: "B2"
+  11:
+    val: "B3"
+  12:
+    val: "B4"
+  13:
+    val: "B5"
+  16:
+    val: "B8"
+  17:
+    val: "B9"
+  24:
+    val: "B16"
+potsWarnEnabled: 0
+view: 0
+modelRegistrationID: ""
